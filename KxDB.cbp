@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="KxDB" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/kevi/Desktop/KxDB" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/kevi/Desktop/KxDB" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="KxDB">
+         <Option output="/home/kevi/Desktop/KxDB/KxDB" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/kevi/Desktop/KxDB" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/kevi/Desktop/KxDB/AirinSE" />
+            <Add directory="/home/kevi/Desktop/KxDB/utils" />
+            <Add directory="/usr/local/opt/openssl@1.1/include" />
+            <Add directory="/usr/local/opt/zstd/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 KxDB" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="KxDB/fast">
+         <Option output="/home/kevi/Desktop/KxDB/KxDB" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/kevi/Desktop/KxDB" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/kevi/Desktop/KxDB/AirinSE" />
+            <Add directory="/home/kevi/Desktop/KxDB/utils" />
+            <Add directory="/usr/local/opt/openssl@1.1/include" />
+            <Add directory="/usr/local/opt/zstd/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 KxDB/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/kevi/Desktop/KxDB" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kevi/Desktop/KxDB/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinBlockAbstract.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinBlockAbstract.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinBlockBloomFilter.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinBlockBloomFilter.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinBlockData.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinBlockData.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinBlockIndex.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinBlockIndex.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinCell.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinCell.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinFile.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinFile.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinFilePopulation.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinFilePopulation.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinFileScanner.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinFileScanner.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinMem.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinMem.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinStore.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinStore.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinStoreScanner.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/AirinSE/AirinStoreScanner.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/main.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/test/io.cpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/utils/Constant.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/utils/Heap.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/utils/Helper.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/utils/LRU.hpp">
+         <Option target="KxDB"/>
+      </Unit>
+      <Unit filename="/home/kevi/Desktop/KxDB/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
